@@ -11,7 +11,6 @@ export function Home() {
   return (
     <section className="home">
       <h1>Todo's R Us!</h1>
-      <button>Count {count}</button>
       <ToggleButton val={isOn} setVal={setIsOn} />
       {isOn && <img src="../assets/img/todo.png" alt="" />}
     </section>
